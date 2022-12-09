@@ -17,14 +17,18 @@ nameQuestion();
 // // everything else looks okay
 
 // // EX 2:
-// function addThreeNums(first, second, third) {
-// var sum = first + second + third
-// console.log(sum);
-//       }
 
-// addThreeNums(1, 2, 3);
-// addThreeNums(4, 2, 7);
+function addThreeNums(first, second, third) {
+var sum = first + second + third; 
+  console.log(sum);
+  }
 
+addThreeNums(1, 2, 3);
+addThreeNums(4, 2, 7);
+
+//added semicolon after var sum to follow convention
+//indented console.log for formatting 
+// moved the bracket to the left for formatting 
 
 // // EX 3:
 // func makeFreshPesto(){
