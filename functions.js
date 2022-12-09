@@ -1,4 +1,10 @@
 // 1: Write a function named printGreeting that prints a simple greeting message, the same one, every time it is called. Call this function 3 times.
+function printSimpleGreeting () {
+    console.log ("Hey, y'all.");
+}
+printSimpleGreeting ();
+printSimpleGreeting ();
+printSimpleGreeting (); 
 
 
 // 2: Write a function that accepts 1 argument. The function should console.log a sentence that interpolates the data passed in.
@@ -9,14 +15,14 @@
 
 // 4: Write a function that satifies the following interaction pattern:
 
-checkStock(4, "Coffee");
-// => "Coffee is stocked"
+// checkStock(4, "Coffee");
+// // => "Coffee is stocked"
 
-checkStock(3, "Tortillas");
-// => "Tortillas - running LOW"
+// checkStock(3, "Tortillas");
+// // => "Tortillas - running LOW"
 
-checkStock(0, "Cheese");
-// => "Cheese - OUT of stock!"
+// checkStock(0, "Cheese");
+// // => "Cheese - OUT of stock!"
 
-checkStock(1, "Salsa");
-// => "Salsa - running LOW"
+// checkStock(1, "Salsa");
+// // => "Salsa - running LOW"
