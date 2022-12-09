@@ -31,21 +31,29 @@ addThreeNums(4, 2, 7);
 // moved the bracket to the left for formatting 
 
 // // EX 3:
-// func makeFreshPesto(){
-//   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
-//   console.log("Pulse basil and pine nuts");
-//   console.log("Add garlic and cheeses");
-//   console.log("Slowly pour in oil");
-//   console.log("Season");    }
+function makeFreshPesto() {
+  console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
+  console.log("Pulse basil and pine nuts");
+  console.log("Add garlic and cheeses");
+  console.log("Slowly pour in oil");
+  console.log("Season");    
+}
 
-// makeFreshPesto();
+makeFreshPesto();
 
+// completed the word function 
+//added a space after the () and the { for formatting
 
 // //  EX 4:
-// function average(num1, num2) 
-//   {
-// var sum = num1 + num2;
-//     var avg = sum / 2;
+function average(num1, num2) {
+    var sum = num1 + num2;
+    var avg = sum / 2;
 
-//   console.log(`the average is: ${avg}`.)
-//   }
+  console.log(`the average is: ${avg}.`);
+  }
+
+  //moved the { next to the end of the function for syntax
+  // spaced the first var for formatting
+  // moved the period into the back tick in console.log for syntax 
+  //added semicolon to the end of console log for best practice
+  // it should have no output because there were no numbers, but also give no error messages 
