@@ -1,6 +1,12 @@
 # Self Evaluation
 
 - Reflect on your time management and awareness of where you spend time. Is this a strength or area you are working on? What support do you need in this area? And/or, what tips do you have to share with your classmates in this area?
+Time management is difficult for me at the moment when it comes to how to gauge how much time I'll need to do life things like meal prep, etc. because I am currently in between housing as well as working two jobs. I'm trying to reflect on my time management daily. This is not a strenght area, I am currently working on it. I have someone who offered to be my accountability person while I'm new to time management, so I think that will be really helpful. I think the tip that helped me the most was a perspective shift when it comes to calendaring. I was seeing it as a daunting task that was going to be hard and tedious, but when it was framed to me in a way that was me getting to schedule in things I enjoy and that it will take a lot of stress away because I'll have structure, it made it feel more manageable. I think the biggest thing I struggle with now is if I get stuck on the problem and know I'll have to go over time, it's instantly stressful. 
 - How would you explain to a 5 year old what a function is?
+A function is like instructions for building something like legos, you can read the instructions and know how to build the legos. 
 - Share your understanding of arguments and parameters.
+The argument is the actual data. It is used in the function call. It must be in the form of valid JS data types such as a string, number, boolean, etc. 
+A parameter has to be declared within a function. They provide additional information like a variable that can be accessed inside the function. They use the same conventions as variables when naming parameters. 
+The number of arguements should match the number of parameters declared. 
 - What questions/topics (related to Functions) do you want to being to your Small Group?
+I am having a hard time mapping out how to bring in the different topics we've learned together. When it comes to the exercises where it only requires me to format something from what we've just learned or gone over, I feel like I have a good grasp on it. When it comes to combining everything together I get a little lost. I know I need to practice/study more. 
