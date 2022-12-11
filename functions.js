@@ -17,12 +17,12 @@
 // // The function should print out a sentence that includes the name of the company and the range itself (if the numbers passed in are 90000 and 110000, the pay range is 20000).
 // // name of company, minimum pay range, maximum pay range 
 
-function payRange(num1, num2) {
-    var sum =num1 + num2;
-    console.log(sum);
-} 
-payRange(1000, 4000)
-console.log('The pay range for the Human Fund is 5000.')
+// function payRange(num1, num2) {
+//     var sum =num1 + num2;
+//     console.log(sum);
+// } 
+// payRange(1000, 4000)
+// console.log('The pay range for the Human Fund is 5000.')
 
 // function companyPayRange (num1, num2) {
 //     var avg = num1 + num2
@@ -49,15 +49,29 @@ console.log('The pay range for the Human Fund is 5000.')
 // function checkStock ()
 //are the numbers correlated to the function or to determine if it's low in stock or not 
 
-// checkStock(4, "Coffee");
+function checkStock(productNum, productName) {
+if (productName >= 4) {
+    console.log(`${productName} is stocked.`);
+} else if (productNum >=3) {
+    console.log(`${productName} running LOW.`); 
+} else if (productNum => 1) {
+    console.log(`${productName} - OUT of stock!`);
+} else {
+    console.log(`${productName} running LOW.`);
+    }
+}
+
+// checkStock("coffee", "tortillas", "cheese");
+
+checkStock(4, "Coffee"); 
 // // => "Coffee is stocked"
 
-// checkStock(3, "Tortillas");
+checkStock(3, "Tortillas");
 // // => "Tortillas - running LOW"
 
-// checkStock(0, "Cheese");
+checkStock(0, "Cheese");
 // // => "Cheese - OUT of stock!"
 
-// checkStock(1, "Salsa");
+checkStock(1, "Salsa");
 // // => "Salsa - running LOW"
 
