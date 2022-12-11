@@ -50,11 +50,11 @@
 //are the numbers correlated to the function or to determine if it's low in stock or not 
 
 function checkStock(productNum, productName) {
-if (productName >= 4) {
+if (productNum === 4) {
     console.log(`${productName} is stocked.`);
-} else if (productNum >=3) {
+} else if (productNum <=3) {
     console.log(`${productName} running LOW.`); 
-} else if (productNum => 1) {
+} else if (productNum =>1) {
     console.log(`${productName} - OUT of stock!`);
 } else {
     console.log(`${productName} running LOW.`);
