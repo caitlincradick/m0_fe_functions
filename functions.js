@@ -48,13 +48,15 @@
 // 4: Write a function that satifies the following interaction pattern:
 // function checkStock ()
 //are the numbers correlated to the function or to determine if it's low in stock or not 
-
+// Your checkStock function will only ever print running low for any productNum less
+//  than or equal to 3. The last two statements, out of stock and the final 
+//  running low will never run. Can you figure out why?
 function checkStock(productNum, productName) {
 if (productNum === 4) {
     console.log(`${productName} is stocked.`);
-} else if (productNum <=3) {
-    console.log(`${productName} running LOW.`); 
-} else if (productNum =>1) {
+// } else if (productNum >= 3) {
+//     console.log(`${productName} running LOW.`); 
+} else if (productNum <= 1) {
     console.log(`${productName} - OUT of stock!`);
 } else {
     console.log(`${productName} running LOW.`);
@@ -72,6 +74,6 @@ checkStock(3, "Tortillas");
 checkStock(0, "Cheese");
 // // => "Cheese - OUT of stock!"
 
-checkStock(1, "Salsa");
+checkStock(2, "Salsa");
 // // => "Salsa - running LOW"
 
