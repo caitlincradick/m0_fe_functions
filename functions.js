@@ -52,11 +52,11 @@
 //  than or equal to 3. The last two statements, out of stock and the final 
 //  running low will never run. Can you figure out why?
 function checkStock(productNum, productName) {
-if (productNum === 4) {
+if (productNum >= 4) {
     console.log(`${productName} is stocked.`);
 // } else if (productNum >= 3) {
 //     console.log(`${productName} running LOW.`); 
-} else if (productNum <= 1) {
+} else if (productNum < 1) {
     console.log(`${productName} - OUT of stock!`);
 } else {
     console.log(`${productName} running LOW.`);
@@ -65,13 +65,13 @@ if (productNum === 4) {
 
 // checkStock("coffee", "tortillas", "cheese");
 
-checkStock(4, "Coffee"); 
+checkStock(90, "Coffee"); 
 // // => "Coffee is stocked"
 
-checkStock(3, "Tortillas");
+checkStock(0, "Tortillas");
 // // => "Tortillas - running LOW"
 
-checkStock(0, "Cheese");
+checkStock(5, "Cheese");
 // // => "Cheese - OUT of stock!"
 
 checkStock(2, "Salsa");
